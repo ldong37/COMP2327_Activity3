@@ -10,4 +10,7 @@ Dong Le Quoc Bao
 
 ## Additional Information
 
-[ Use this space to include additional information that may help in your learning. ]
+This project implements the "State Design Pattern" to simulate a vending machine. 
+- The `State` interface defines the common behavior.
+- `NoPaymentState`, `HasPaymentState`, and `OutOfStockState` implement the specific behaviors.
+- The `VendingMachine` class maintains a reference to the current state and delegates payment and item selection requests to it.
